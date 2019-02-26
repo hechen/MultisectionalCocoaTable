@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "876D5B84CDE9385A69939F7E5622FFD9"
-               BlueprintName = "VNTableView"
+               BlueprintIdentifier = "994A08497A9E159CF4317C83C15B7E8C"
+               BlueprintName = "Pods-VNTableViewDemoTests"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libVNTableView.a">
+               BuildableName = "libPods-VNTableViewDemoTests.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

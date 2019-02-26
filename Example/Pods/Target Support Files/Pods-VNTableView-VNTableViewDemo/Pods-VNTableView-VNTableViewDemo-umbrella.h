@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_VNTableViewDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_VNTableViewDemoVersionString[];
+FOUNDATION_EXPORT double Pods_VNTableView_VNTableViewDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_VNTableView_VNTableViewDemoVersionString[];
 

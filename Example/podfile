@@ -1,6 +1,18 @@
 platform :osx, '10.14'
 inhibit_all_warnings!
 
-target 'VNTableViewDemo' do
+abstract_target 'VNTableView' do
   pod 'VNTableView', path: '../VNTableView/'
+
+  target 'VNTableViewDemo'
+
+  target 'VNTableViewDemoTests' do
+    inherit! :search_paths
+  end
+
+  target 'VNTableViewDemoUITests' do
+    inherit! :search_paths
+  end
+
+
 end

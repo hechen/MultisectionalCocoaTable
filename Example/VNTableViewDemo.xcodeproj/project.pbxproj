@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA83DDB319315ADE2DA9570 /* libPods-VNTableViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1BF4EBE57EB2F13D81E87E /* libPods-VNTableViewDemoUITests.a */; };
+		12ECA7F282C05A7C8889EBD4 /* libPods-VNTableView-VNTableViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CFD041BFE45F5CFCC55DCE /* libPods-VNTableView-VNTableViewDemoTests.a */; };
 		3119742F33DE7F5236ABF90C /* libPods-VNTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0B6A8F7D7FD8C8503532F0 /* libPods-VNTableViewDemo.a */; };
 		749DBA3222251303004AFB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA3122251303004AFB57 /* AppDelegate.swift */; };
 		749DBA3422251303004AFB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA3322251303004AFB57 /* ViewController.swift */; };
@@ -18,6 +20,9 @@
 		749DBA64222518C1004AFB57 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA63222518C1004AFB57 /* CellView.swift */; };
 		749DBA6A22251BF3004AFB57 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA6922251BF3004AFB57 /* SectionView.swift */; };
 		749DBA6C22252192004AFB57 /* SectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749DBA6B22252192004AFB57 /* SectionView.xib */; };
+		812BC9306097FBB5A993ED2E /* libPods-VNTableViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC03BADF8455B7414887AF3 /* libPods-VNTableViewDemoTests.a */; };
+		9F5DA18DBD17555DFF37120F /* libPods-VNTableView-VNTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 645EFF0885B931ED96CB8892 /* libPods-VNTableView-VNTableViewDemo.a */; };
+		C37DED78F57F9B9944C2F2DA /* libPods-VNTableView-VNTableViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DFF9C794C4F057E34DF09B /* libPods-VNTableView-VNTableViewDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ABCFBC9E90C7F2F5233DBAC /* Pods-VNTableViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableViewDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-VNTableViewDemoTests/Pods-VNTableViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BC03BADF8455B7414887AF3 /* libPods-VNTableViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNTableViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DFF9C794C4F057E34DF09B /* libPods-VNTableView-VNTableViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNTableView-VNTableViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A57CA43C191EED6CA6707BC /* Pods-VNTableViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableViewDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-VNTableViewDemoUITests/Pods-VNTableViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		39CB44742DCB74A0CCA43A74 /* Pods-VNTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-VNTableViewDemo/Pods-VNTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		39CFD041BFE45F5CFCC55DCE /* libPods-VNTableView-VNTableViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNTableView-VNTableViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5320FDAD65895365D539FA00 /* Pods-VNTableView-VNTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableView-VNTableViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-VNTableView-VNTableViewDemo/Pods-VNTableView-VNTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		59F1C9BB3F4E62B5366F8AEA /* Pods-VNTableViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableViewDemoTests.release.xcconfig"; path = "Target Support Files/Pods-VNTableViewDemoTests/Pods-VNTableViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DD260B4EB791F966B509CE8 /* Pods-VNTableView-VNTableViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableView-VNTableViewDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-VNTableView-VNTableViewDemoTests/Pods-VNTableView-VNTableViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		645EFF0885B931ED96CB8892 /* libPods-VNTableView-VNTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNTableView-VNTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		646A3F765EC0077B8363A13E /* Pods-VNTableViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableViewDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-VNTableViewDemoUITests/Pods-VNTableViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7103FA191024B4C726A6C6BB /* Pods-VNTableView-VNTableViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableView-VNTableViewDemoTests.release.xcconfig"; path = "Target Support Files/Pods-VNTableView-VNTableViewDemoTests/Pods-VNTableView-VNTableViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		749DBA2E22251303004AFB57 /* VNTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749DBA3122251303004AFB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		749DBA3322251303004AFB57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +73,10 @@
 		749DBA6922251BF3004AFB57 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		749DBA6B22252192004AFB57 /* SectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionView.xib; sourceTree = "<group>"; };
 		7A1190AB45568CB5D800D202 /* Pods-VNTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableViewDemo.release.xcconfig"; path = "Target Support Files/Pods-VNTableViewDemo/Pods-VNTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8FA22A69CFE78D38C4D38CF4 /* Pods-VNTableView-VNTableViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableView-VNTableViewDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-VNTableView-VNTableViewDemoUITests/Pods-VNTableView-VNTableViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB1BF4EBE57EB2F13D81E87E /* libPods-VNTableViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNTableViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B40E4B108A006071E34CD4 /* Pods-VNTableView-VNTableViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableView-VNTableViewDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-VNTableView-VNTableViewDemoUITests/Pods-VNTableView-VNTableViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D46BF2757232C0B68CEDA5B6 /* Pods-VNTableView-VNTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableView-VNTableViewDemo.release.xcconfig"; path = "Target Support Files/Pods-VNTableView-VNTableViewDemo/Pods-VNTableView-VNTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		ED0B6A8F7D7FD8C8503532F0 /* libPods-VNTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,6 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3119742F33DE7F5236ABF90C /* libPods-VNTableViewDemo.a in Frameworks */,
+				9F5DA18DBD17555DFF37120F /* libPods-VNTableView-VNTableViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12ECA7F282C05A7C8889EBD4 /* libPods-VNTableView-VNTableViewDemoTests.a in Frameworks */,
+				812BC9306097FBB5A993ED2E /* libPods-VNTableViewDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37DED78F57F9B9944C2F2DA /* libPods-VNTableView-VNTableViewDemoUITests.a in Frameworks */,
+				0CA83DDB319315ADE2DA9570 /* libPods-VNTableViewDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +181,16 @@
 			children = (
 				39CB44742DCB74A0CCA43A74 /* Pods-VNTableViewDemo.debug.xcconfig */,
 				7A1190AB45568CB5D800D202 /* Pods-VNTableViewDemo.release.xcconfig */,
+				5320FDAD65895365D539FA00 /* Pods-VNTableView-VNTableViewDemo.debug.xcconfig */,
+				D46BF2757232C0B68CEDA5B6 /* Pods-VNTableView-VNTableViewDemo.release.xcconfig */,
+				5DD260B4EB791F966B509CE8 /* Pods-VNTableView-VNTableViewDemoTests.debug.xcconfig */,
+				7103FA191024B4C726A6C6BB /* Pods-VNTableView-VNTableViewDemoTests.release.xcconfig */,
+				D1B40E4B108A006071E34CD4 /* Pods-VNTableView-VNTableViewDemoUITests.debug.xcconfig */,
+				8FA22A69CFE78D38C4D38CF4 /* Pods-VNTableView-VNTableViewDemoUITests.release.xcconfig */,
+				0ABCFBC9E90C7F2F5233DBAC /* Pods-VNTableViewDemoTests.debug.xcconfig */,
+				59F1C9BB3F4E62B5366F8AEA /* Pods-VNTableViewDemoTests.release.xcconfig */,
+				1A57CA43C191EED6CA6707BC /* Pods-VNTableViewDemoUITests.debug.xcconfig */,
+				646A3F765EC0077B8363A13E /* Pods-VNTableViewDemoUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -164,6 +199,11 @@
 			isa = PBXGroup;
 			children = (
 				ED0B6A8F7D7FD8C8503532F0 /* libPods-VNTableViewDemo.a */,
+				645EFF0885B931ED96CB8892 /* libPods-VNTableView-VNTableViewDemo.a */,
+				39CFD041BFE45F5CFCC55DCE /* libPods-VNTableView-VNTableViewDemoTests.a */,
+				15DFF9C794C4F057E34DF09B /* libPods-VNTableView-VNTableViewDemoUITests.a */,
+				0BC03BADF8455B7414887AF3 /* libPods-VNTableViewDemoTests.a */,
+				AB1BF4EBE57EB2F13D81E87E /* libPods-VNTableViewDemoUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 749DBA5722251304004AFB57 /* Build configuration list for PBXNativeTarget "VNTableViewDemoTests" */;
 			buildPhases = (
+				E3C58BB02A0C4CB13D460975 /* [CP] Check Pods Manifest.lock */,
 				749DBA3C22251303004AFB57 /* Sources */,
 				749DBA3D22251303004AFB57 /* Frameworks */,
 				749DBA3E22251303004AFB57 /* Resources */,
@@ -211,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 749DBA5A22251304004AFB57 /* Build configuration list for PBXNativeTarget "VNTableViewDemoUITests" */;
 			buildPhases = (
+				0CB721D303DBE9EECDF89EC2 /* [CP] Check Pods Manifest.lock */,
 				749DBA4722251304004AFB57 /* Sources */,
 				749DBA4822251304004AFB57 /* Frameworks */,
 				749DBA4922251304004AFB57 /* Resources */,
@@ -312,7 +354,51 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VNTableViewDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VNTableView-VNTableViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CB721D303DBE9EECDF89EC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VNTableViewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C58BB02A0C4CB13D460975 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VNTableViewDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -493,7 +579,7 @@
 		};
 		749DBA5522251304004AFB57 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39CB44742DCB74A0CCA43A74 /* Pods-VNTableViewDemo.debug.xcconfig */;
+			baseConfigurationReference = 5320FDAD65895365D539FA00 /* Pods-VNTableView-VNTableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VNTableViewDemo/VNTableViewDemo.entitlements;
@@ -513,7 +599,7 @@
 		};
 		749DBA5622251304004AFB57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A1190AB45568CB5D800D202 /* Pods-VNTableViewDemo.release.xcconfig */;
+			baseConfigurationReference = D46BF2757232C0B68CEDA5B6 /* Pods-VNTableView-VNTableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VNTableViewDemo/VNTableViewDemo.entitlements;
@@ -533,6 +619,7 @@
 		};
 		749DBA5822251304004AFB57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABCFBC9E90C7F2F5233DBAC /* Pods-VNTableViewDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +641,7 @@
 		};
 		749DBA5922251304004AFB57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F1C9BB3F4E62B5366F8AEA /* Pods-VNTableViewDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -575,6 +663,7 @@
 		};
 		749DBA5B22251304004AFB57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A57CA43C191EED6CA6707BC /* Pods-VNTableViewDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -595,6 +684,7 @@
 		};
 		749DBA5C22251304004AFB57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646A3F765EC0077B8363A13E /* Pods-VNTableViewDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
