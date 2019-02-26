@@ -69,16 +69,20 @@ public extension VNTableView {
 extension VNTableView: NSTableViewDelegate {
     
     public func tableViewSelectionDidChange(_ notification: Notification) {
+        guard let dl = vn_delegate else { return }
+        
         // deselect all rows. (for exam: when you click column header field.)
         if self.selectedRow == -1 {
-            vn_delegate?.didDeselectAll(self)
+            dl.didDeselectAll(self)
             return
         }
         
         let (section, rowInSection) = sectionFor(row: self.selectedRow)
         
-        // section has been disabled.
-        assert(rowInSection > 0)
+        if rowInSection == 0 && dl.tableView(self, shouldSelectSection: section) {
+            dl.tableView(self, didSelectSection: section)
+            return
+        }
         
         vn_delegate?.tableView(self, didSelectRow: rowInSection - 1, section: section)
     }
@@ -115,7 +119,9 @@ extension VNTableView: NSTableViewDelegate {
         
         // which section this row belong to
         let (section, rowInSection) = sectionFor(row: row)
-        if rowInSection == 0 { return false }
+        if rowInSection == 0 {
+            return dl.tableView(self, shouldSelectSection: section)
+        }
         return dl.tableView(self, shouldSelectRow: rowInSection, section: section)
     }
 }
@@ -142,6 +148,9 @@ protocol VNTableViewDelegate: NSObjectProtocol {
     func didDeselectAll(_ tableView: VNTableView)
     
     func tableView(_ tableView: VNTableView, doubleClickRow row: Int, section: Int)
+    
+    func tableView(_ tableView: VNTableView, shouldSelectSection section: Int) -> Bool
+    func tableView(_ tableView: VNTableView, didSelectSection section: Int)
 }
 
 public
@@ -154,6 +163,9 @@ extension VNTableViewDelegate {
     func didDeselectAll(_ tableView: VNTableView) {}
     
     func tableView(_ tableView: VNTableView, doubleClickRow row: Int, section: Int) {}
+    
+    func tableView(_ tableView: VNTableView, shouldSelectSection section: Int) -> Bool { return false }
+    func tableView(_ tableView: VNTableView, didSelectSection section: Int) {}
 }
 
 

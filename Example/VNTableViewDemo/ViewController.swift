@@ -44,6 +44,18 @@ extension ViewController: VNTableViewDelegate {
         cv.textLabel.stringValue = "I am an row: \(row)"
         return cv
     }
+    
+    func tableView(_ tableView: VNTableView, shouldSelectSection section: Int) -> Bool {
+        return true
+    }
+    
+    func tableView(_ tableView: VNTableView, didSelectSection section: Int) {
+        print("did select section: \(section)")
+    }
+    
+    func tableView(_ tableView: VNTableView, didSelectRow row: Int, section: Int) {
+        print("did select row: \(row) at section: \(section)")
+    }
 }
 
 extension ViewController: VNTableViewDataSource {
