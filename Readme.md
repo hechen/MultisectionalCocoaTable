@@ -1,6 +1,9 @@
 # VNTableView
 
+[![Build Status](https://travis-ci.com/hechen/VNTableView.svg?branch=master)](https://travis-ci.com/hechen/VNTableView)
+
 Subclass of NSTableView, which support multiple sections like UITableView.
+
 
 ![Demo](.assets/demo_01.png)
 

@@ -1,7 +1,28 @@
 language: swift
 osx_image: xcode10.1
-xcode_workspace: Example/VNTableViewDemo.xcworkspace
-xcode_scheme: VNTableViewDemo
 xcode_destination: platform=macOS
 
+cache:
+  - bundler
+  - cocoapods
+
 podfile: Example/podfile
+
+env:
+  global:
+  - LANG=en_US.UTF-8
+  - LC_ALL=en_US.UTF-8
+  - XCODE_WORKSPACE=Example/VNTableViewDemo.xcworkspace
+  matrix:
+  - SCHEME="VNTableViewDemo"
+
+
+before_install:
+ - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+ - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
+ - pod install --project-directory=Example
+
+script:
+  - set -o pipefail
+  - xcodebuild -workspace "$XCODE_WORKSPACE" -scheme "$SCHEME" -configuration Debug clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
+  - xcodebuild -workspace "$XCODE_WORKSPACE" -scheme "$SCHEME" -configuration Release clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
