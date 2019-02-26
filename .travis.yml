@@ -1,6 +1,6 @@
 language: swift
 osx_image: xcode10.1
-xcode_project: Example/VNTableViewDemo.xcworkspace
+xcode_workspace: Example/VNTableViewDemo.xcworkspace
 xcode_scheme: VNTableViewDemo
 xcode_destination: platform=macOS
 
