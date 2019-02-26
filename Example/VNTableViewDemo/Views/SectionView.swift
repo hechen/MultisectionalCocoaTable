@@ -26,15 +26,13 @@ class SectionView: NSView {
 extension SectionView {
     var backgroundColor: NSColor? {
         set {
-            layer?.backgroundColor = newValue?.cgColor
             wantsLayer = true
+            layer?.backgroundColor = newValue?.cgColor
         }
         
         get {
-            if let cg = layer?.backgroundColor {
-                return NSColor(cgColor: cg)
-            }
-            return nil
+            guard let layer = layer, let backgroundColor = layer.backgroundColor else { return nil }
+            return NSColor(cgColor: backgroundColor)
         }
     }
 }

@@ -10,13 +10,6 @@ import Cocoa
 import VNTableView
 
 
-enum Secion: Int {
-    case first
-    case second
-}
-
-
-
 extension NSUserInterfaceItemIdentifier {
     public static let cellView = NSUserInterfaceItemIdentifier("CellView")
     
@@ -42,7 +35,7 @@ class ViewController: NSViewController {
 extension ViewController: VNTableViewDelegate {
     func tableView(_ tableView: VNTableView, viewForSection section: Int, tableColumn: NSTableColumn?) -> NSView? {
         guard let sv = tableView.makeView(withIdentifier: .sectionView, owner: nil) as? SectionView else { return nil }
-        sv.textLabel.stringValue = "I am section \(section)"
+        sv.textLabel.stringValue = "Section \(section)"
         return sv
     }
     
