@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3119742F33DE7F5236ABF90C /* libPods-VNTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0B6A8F7D7FD8C8503532F0 /* libPods-VNTableViewDemo.a */; };
+		749DBA3222251303004AFB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA3122251303004AFB57 /* AppDelegate.swift */; };
+		749DBA3422251303004AFB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA3322251303004AFB57 /* ViewController.swift */; };
+		749DBA3622251303004AFB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749DBA3522251303004AFB57 /* Assets.xcassets */; };
+		749DBA3922251303004AFB57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749DBA3722251303004AFB57 /* Main.storyboard */; };
+		749DBA4522251304004AFB57 /* VNTableViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA4422251304004AFB57 /* VNTableViewDemoTests.swift */; };
+		749DBA5022251304004AFB57 /* VNTableViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA4F22251304004AFB57 /* VNTableViewDemoUITests.swift */; };
+		749DBA61222517EA004AFB57 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749DBA60222517EA004AFB57 /* CellView.xib */; };
+		749DBA64222518C1004AFB57 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA63222518C1004AFB57 /* CellView.swift */; };
+		749DBA6A22251BF3004AFB57 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA6922251BF3004AFB57 /* SectionView.swift */; };
+		749DBA6C22252192004AFB57 /* SectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749DBA6B22252192004AFB57 /* SectionView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		749DBA4122251304004AFB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749DBA2622251303004AFB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749DBA2D22251303004AFB57;
+			remoteInfo = VNTableViewDemo;
+		};
+		749DBA4C22251304004AFB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749DBA2622251303004AFB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749DBA2D22251303004AFB57;
+			remoteInfo = VNTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39CB44742DCB74A0CCA43A74 /* Pods-VNTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-VNTableViewDemo/Pods-VNTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		749DBA2E22251303004AFB57 /* VNTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		749DBA3122251303004AFB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		749DBA3322251303004AFB57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		749DBA3522251303004AFB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		749DBA3822251303004AFB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		749DBA3A22251303004AFB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749DBA3B22251303004AFB57 /* VNTableViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VNTableViewDemo.entitlements; sourceTree = "<group>"; };
+		749DBA4022251304004AFB57 /* VNTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		749DBA4422251304004AFB57 /* VNTableViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNTableViewDemoTests.swift; sourceTree = "<group>"; };
+		749DBA4622251304004AFB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749DBA4B22251304004AFB57 /* VNTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		749DBA4F22251304004AFB57 /* VNTableViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNTableViewDemoUITests.swift; sourceTree = "<group>"; };
+		749DBA5122251304004AFB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749DBA60222517EA004AFB57 /* CellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		749DBA63222518C1004AFB57 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		749DBA6922251BF3004AFB57 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		749DBA6B22252192004AFB57 /* SectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionView.xib; sourceTree = "<group>"; };
+		7A1190AB45568CB5D800D202 /* Pods-VNTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNTableViewDemo.release.xcconfig"; path = "Target Support Files/Pods-VNTableViewDemo/Pods-VNTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ED0B6A8F7D7FD8C8503532F0 /* libPods-VNTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		749DBA2B22251303004AFB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3119742F33DE7F5236ABF90C /* libPods-VNTableViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749DBA3D22251303004AFB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749DBA4822251304004AFB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		749DBA2522251303004AFB57 = {
+			isa = PBXGroup;
+			children = (
+				749DBA3022251303004AFB57 /* VNTableViewDemo */,
+				749DBA4322251304004AFB57 /* VNTableViewDemoTests */,
+				749DBA4E22251304004AFB57 /* VNTableViewDemoUITests */,
+				749DBA2F22251303004AFB57 /* Products */,
+				77DA7F7F46C821B7B3627B18 /* Pods */,
+				8D8A72C652454AC517C42604 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		749DBA2F22251303004AFB57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749DBA2E22251303004AFB57 /* VNTableViewDemo.app */,
+				749DBA4022251304004AFB57 /* VNTableViewDemoTests.xctest */,
+				749DBA4B22251304004AFB57 /* VNTableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		749DBA3022251303004AFB57 /* VNTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				749DBA62222518AC004AFB57 /* Views */,
+				749DBA3122251303004AFB57 /* AppDelegate.swift */,
+				749DBA3322251303004AFB57 /* ViewController.swift */,
+				749DBA3522251303004AFB57 /* Assets.xcassets */,
+				749DBA3722251303004AFB57 /* Main.storyboard */,
+				749DBA3A22251303004AFB57 /* Info.plist */,
+				749DBA3B22251303004AFB57 /* VNTableViewDemo.entitlements */,
+			);
+			path = VNTableViewDemo;
+			sourceTree = "<group>";
+		};
+		749DBA4322251304004AFB57 /* VNTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				749DBA4422251304004AFB57 /* VNTableViewDemoTests.swift */,
+				749DBA4622251304004AFB57 /* Info.plist */,
+			);
+			path = VNTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		749DBA4E22251304004AFB57 /* VNTableViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				749DBA4F22251304004AFB57 /* VNTableViewDemoUITests.swift */,
+				749DBA5122251304004AFB57 /* Info.plist */,
+			);
+			path = VNTableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		749DBA62222518AC004AFB57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				749DBA60222517EA004AFB57 /* CellView.xib */,
+				749DBA63222518C1004AFB57 /* CellView.swift */,
+				749DBA6922251BF3004AFB57 /* SectionView.swift */,
+				749DBA6B22252192004AFB57 /* SectionView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77DA7F7F46C821B7B3627B18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39CB44742DCB74A0CCA43A74 /* Pods-VNTableViewDemo.debug.xcconfig */,
+				7A1190AB45568CB5D800D202 /* Pods-VNTableViewDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D8A72C652454AC517C42604 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B6A8F7D7FD8C8503532F0 /* libPods-VNTableViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		749DBA2D22251303004AFB57 /* VNTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749DBA5422251304004AFB57 /* Build configuration list for PBXNativeTarget "VNTableViewDemo" */;
+			buildPhases = (
+				0A99A41A5377DB220737AF00 /* [CP] Check Pods Manifest.lock */,
+				749DBA2A22251303004AFB57 /* Sources */,
+				749DBA2B22251303004AFB57 /* Frameworks */,
+				749DBA2C22251303004AFB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VNTableViewDemo;
+			productName = VNTableViewDemo;
+			productReference = 749DBA2E22251303004AFB57 /* VNTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		749DBA3F22251303004AFB57 /* VNTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749DBA5722251304004AFB57 /* Build configuration list for PBXNativeTarget "VNTableViewDemoTests" */;
+			buildPhases = (
+				749DBA3C22251303004AFB57 /* Sources */,
+				749DBA3D22251303004AFB57 /* Frameworks */,
+				749DBA3E22251303004AFB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749DBA4222251304004AFB57 /* PBXTargetDependency */,
+			);
+			name = VNTableViewDemoTests;
+			productName = VNTableViewDemoTests;
+			productReference = 749DBA4022251304004AFB57 /* VNTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		749DBA4A22251304004AFB57 /* VNTableViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749DBA5A22251304004AFB57 /* Build configuration list for PBXNativeTarget "VNTableViewDemoUITests" */;
+			buildPhases = (
+				749DBA4722251304004AFB57 /* Sources */,
+				749DBA4822251304004AFB57 /* Frameworks */,
+				749DBA4922251304004AFB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749DBA4D22251304004AFB57 /* PBXTargetDependency */,
+			);
+			name = VNTableViewDemoUITests;
+			productName = VNTableViewDemoUITests;
+			productReference = 749DBA4B22251304004AFB57 /* VNTableViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		749DBA2622251303004AFB57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = chen;
+				TargetAttributes = {
+					749DBA2D22251303004AFB57 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					749DBA3F22251303004AFB57 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 749DBA2D22251303004AFB57;
+					};
+					749DBA4A22251304004AFB57 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 749DBA2D22251303004AFB57;
+					};
+				};
+			};
+			buildConfigurationList = 749DBA2922251303004AFB57 /* Build configuration list for PBXProject "VNTableViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 749DBA2522251303004AFB57;
+			productRefGroup = 749DBA2F22251303004AFB57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749DBA2D22251303004AFB57 /* VNTableViewDemo */,
+				749DBA3F22251303004AFB57 /* VNTableViewDemoTests */,
+				749DBA4A22251304004AFB57 /* VNTableViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		749DBA2C22251303004AFB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749DBA6C22252192004AFB57 /* SectionView.xib in Resources */,
+				749DBA3622251303004AFB57 /* Assets.xcassets in Resources */,
+				749DBA61222517EA004AFB57 /* CellView.xib in Resources */,
+				749DBA3922251303004AFB57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749DBA3E22251303004AFB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749DBA4922251304004AFB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A99A41A5377DB220737AF00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VNTableViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		749DBA2A22251303004AFB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749DBA6A22251BF3004AFB57 /* SectionView.swift in Sources */,
+				749DBA3422251303004AFB57 /* ViewController.swift in Sources */,
+				749DBA3222251303004AFB57 /* AppDelegate.swift in Sources */,
+				749DBA64222518C1004AFB57 /* CellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749DBA3C22251303004AFB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749DBA4522251304004AFB57 /* VNTableViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749DBA4722251304004AFB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749DBA5022251304004AFB57 /* VNTableViewDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		749DBA4222251304004AFB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749DBA2D22251303004AFB57 /* VNTableViewDemo */;
+			targetProxy = 749DBA4122251304004AFB57 /* PBXContainerItemProxy */;
+		};
+		749DBA4D22251304004AFB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749DBA2D22251303004AFB57 /* VNTableViewDemo */;
+			targetProxy = 749DBA4C22251304004AFB57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		749DBA3722251303004AFB57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749DBA3822251303004AFB57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		749DBA5222251304004AFB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		749DBA5322251304004AFB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		749DBA5522251304004AFB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CB44742DCB74A0CCA43A74 /* Pods-VNTableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VNTableViewDemo/VNTableViewDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NM8T9PQ2C4;
+				INFOPLIST_FILE = VNTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chen.osx.VNTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		749DBA5622251304004AFB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1190AB45568CB5D800D202 /* Pods-VNTableViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VNTableViewDemo/VNTableViewDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NM8T9PQ2C4;
+				INFOPLIST_FILE = VNTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chen.osx.VNTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		749DBA5822251304004AFB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NM8T9PQ2C4;
+				INFOPLIST_FILE = VNTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chen.osx.VNTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VNTableViewDemo.app/Contents/MacOS/VNTableViewDemo";
+			};
+			name = Debug;
+		};
+		749DBA5922251304004AFB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NM8T9PQ2C4;
+				INFOPLIST_FILE = VNTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chen.osx.VNTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VNTableViewDemo.app/Contents/MacOS/VNTableViewDemo";
+			};
+			name = Release;
+		};
+		749DBA5B22251304004AFB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NM8T9PQ2C4;
+				INFOPLIST_FILE = VNTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chen.osx.VNTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = VNTableViewDemo;
+			};
+			name = Debug;
+		};
+		749DBA5C22251304004AFB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NM8T9PQ2C4;
+				INFOPLIST_FILE = VNTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.chen.osx.VNTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = VNTableViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		749DBA2922251303004AFB57 /* Build configuration list for PBXProject "VNTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749DBA5222251304004AFB57 /* Debug */,
+				749DBA5322251304004AFB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749DBA5422251304004AFB57 /* Build configuration list for PBXNativeTarget "VNTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749DBA5522251304004AFB57 /* Debug */,
+				749DBA5622251304004AFB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749DBA5722251304004AFB57 /* Build configuration list for PBXNativeTarget "VNTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749DBA5822251304004AFB57 /* Debug */,
+				749DBA5922251304004AFB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749DBA5A22251304004AFB57 /* Build configuration list for PBXNativeTarget "VNTableViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749DBA5B22251304004AFB57 /* Debug */,
+				749DBA5C22251304004AFB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 749DBA2622251303004AFB57 /* Project object */;
+}

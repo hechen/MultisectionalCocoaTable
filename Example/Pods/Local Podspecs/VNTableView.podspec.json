@@ -1,0 +1,23 @@
+{
+  "name": "VNTableView",
+  "version": "0.0.1",
+  "license": {
+    "type": "BSD"
+  },
+  "homepage": "https://github.com/hechen/VNTableView",
+  "authors": {
+    "Chen": "hechen.dream@gmail.com"
+  },
+  "summary": "NSTableView support multiple sections.",
+  "source": {
+    "git": "https://github.com/hechen/VNTableView.git",
+    "tag": "0.0.1"
+  },
+  "swift_version": "4.0",
+  "platforms": {
+    "osx": "10.10"
+  },
+  "osx": {
+    "source_files": "Source/**/*.swift"
+  }
+}

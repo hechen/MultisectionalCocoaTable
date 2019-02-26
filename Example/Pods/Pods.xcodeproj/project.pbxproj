@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1101F0EB94DC24BF73304847348FC309 /* VNTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6F88AA940A672F4884F71C6EA332D1 /* VNTableView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		485A41D160228AC0664E861AE2E32C90 /* String+Ex+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4148E5462A5722AB90580D62EA71164 /* String+Ex+.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		77731C99FD4F847A967909538EEA73B7 /* Pods-VNTableViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F607F7D9B246785C9714E01FF818B4 /* Pods-VNTableViewDemo-dummy.m */; };
+		91FE040F6312F031298DFBCF541885A3 /* Pods-VNTableViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F302F599E16469322A520513BF44D37A /* Pods-VNTableViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2F43411A2BC750F776A5740678F3401 /* VNTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3698918BDC23B6869AA8744CD87E8E /* VNTableView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EDA63C702655B4D1CF2335BDB1420A8A /* VNTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2727E2F68EC831A6A4FBDF8462FAB398 /* VNTableView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1552222D7F6580BC65B6403B7C3F5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A44484FD609D3AEA1605E0D7146963;
+			remoteInfo = VNTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B6F2D24BABF2361975D1D392A32564 /* libVNTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVNTableView.a; path = libVNTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2727E2F68EC831A6A4FBDF8462FAB398 /* VNTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VNTableView-dummy.m"; sourceTree = "<group>"; };
+		2E0189BCD96E8E568A00EA16FB73D8E6 /* Pods-VNTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		33E5D285531A69316B94ACF5D9329D04 /* VNTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VNTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B5F4A5B117F3CA038E2C609ED0B0290 /* libPods-VNTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VNTableViewDemo.a"; path = "libPods-VNTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3E0EB3A8526495211D6B21D31711BC /* Pods-VNTableViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VNTableViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		89C3413E57314DE977CAADC4F0D4D8AA /* Pods-VNTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA6F88AA940A672F4884F71C6EA332D1 /* VNTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VNTableView-umbrella.h"; sourceTree = "<group>"; };
+		B1F607F7D9B246785C9714E01FF818B4 /* Pods-VNTableViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VNTableViewDemo-dummy.m"; sourceTree = "<group>"; };
+		BE96446262144676238234187E6BEAFC /* VNTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VNTableView-prefix.pch"; sourceTree = "<group>"; };
+		C1B3A9EB2AE0C970314343F67C07EF40 /* VNTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VNTableView.xcconfig; sourceTree = "<group>"; };
+		DA0E6512AB4AFF2B13828AA237477638 /* Pods-VNTableViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VNTableViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBEBCB954CDFAF5F50C089667E169165 /* VNTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VNTableView.modulemap; sourceTree = "<group>"; };
+		F302F599E16469322A520513BF44D37A /* Pods-VNTableViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VNTableViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		F4148E5462A5722AB90580D62EA71164 /* String+Ex+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Ex+.swift"; sourceTree = "<group>"; };
+		F942BD265282149485B53CCDC8BC5F2A /* Pods-VNTableViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VNTableViewDemo.modulemap"; sourceTree = "<group>"; };
+		FC3698918BDC23B6869AA8744CD87E8E /* VNTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VNTableView.swift; path = Source/VNTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A136324FD2B8F5C45FEF1FF947235767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8C7C1A595514D4A8EC34DD391890E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1745782F460212D3BF16582178D949 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE82DBA8ED4F2B409B01309835CACA3 /* Pods-VNTableViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		530110E16D8F2353A776D1659728F5B8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4E7175B32677C89A9565493338DC698 /* VNTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6EE82DBA8ED4F2B409B01309835CACA3 /* Pods-VNTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F942BD265282149485B53CCDC8BC5F2A /* Pods-VNTableViewDemo.modulemap */,
+				DA0E6512AB4AFF2B13828AA237477638 /* Pods-VNTableViewDemo-acknowledgements.markdown */,
+				7D3E0EB3A8526495211D6B21D31711BC /* Pods-VNTableViewDemo-acknowledgements.plist */,
+				B1F607F7D9B246785C9714E01FF818B4 /* Pods-VNTableViewDemo-dummy.m */,
+				F302F599E16469322A520513BF44D37A /* Pods-VNTableViewDemo-umbrella.h */,
+				2E0189BCD96E8E568A00EA16FB73D8E6 /* Pods-VNTableViewDemo.debug.xcconfig */,
+				89C3413E57314DE977CAADC4F0D4D8AA /* Pods-VNTableViewDemo.release.xcconfig */,
+			);
+			name = "Pods-VNTableViewDemo";
+			path = "Target Support Files/Pods-VNTableViewDemo";
+			sourceTree = "<group>";
+		};
+		B6FD2B13952AD2187C0B4A644AB6486C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F4148E5462A5722AB90580D62EA71164 /* String+Ex+.swift */,
+			);
+			name = Helpers;
+			path = Source/Helpers;
+			sourceTree = "<group>";
+		};
+		C6E102787FAB98419A5673E566584D08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBEBCB954CDFAF5F50C089667E169165 /* VNTableView.modulemap */,
+				C1B3A9EB2AE0C970314343F67C07EF40 /* VNTableView.xcconfig */,
+				2727E2F68EC831A6A4FBDF8462FAB398 /* VNTableView-dummy.m */,
+				BE96446262144676238234187E6BEAFC /* VNTableView-prefix.pch */,
+				AA6F88AA940A672F4884F71C6EA332D1 /* VNTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/VNTableView";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				530110E16D8F2353A776D1659728F5B8 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D72D507E98E56DCE798C7140F2A4313D /* Products */,
+				3B1745782F460212D3BF16582178D949 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E7175B32677C89A9565493338DC698 /* VNTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FC3698918BDC23B6869AA8744CD87E8E /* VNTableView.swift */,
+				B6FD2B13952AD2187C0B4A644AB6486C /* Helpers */,
+				D570CC8E87E022E569904BB2542055F8 /* Pod */,
+				C6E102787FAB98419A5673E566584D08 /* Support Files */,
+			);
+			name = VNTableView;
+			path = ../../VNTableView;
+			sourceTree = "<group>";
+		};
+		D570CC8E87E022E569904BB2542055F8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				33E5D285531A69316B94ACF5D9329D04 /* VNTableView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D72D507E98E56DCE798C7140F2A4313D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5F4A5B117F3CA038E2C609ED0B0290 /* libPods-VNTableViewDemo.a */,
+				03B6F2D24BABF2361975D1D392A32564 /* libVNTableView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		690F57CF68DD507467D6AC5F7B1BD256 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FE040F6312F031298DFBCF541885A3 /* Pods-VNTableViewDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D5B0293FAE23E234C7074F42E22F17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1101F0EB94DC24BF73304847348FC309 /* VNTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20A44484FD609D3AEA1605E0D7146963 /* VNTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58E2DF52B7212C52581571B013748C7 /* Build configuration list for PBXNativeTarget "VNTableView" */;
+			buildPhases = (
+				A5D5B0293FAE23E234C7074F42E22F17 /* Headers */,
+				A862C2A12F3A9E8F55F138D53C434447 /* Sources */,
+				BF8C7C1A595514D4A8EC34DD391890E6 /* Frameworks */,
+				F4C082F2A57D15349386B10A848B68AB /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VNTableView;
+			productName = VNTableView;
+			productReference = 03B6F2D24BABF2361975D1D392A32564 /* libVNTableView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6BD9228252CAEE09F55A3D7D26BC85EE /* Pods-VNTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5909498B0F3BAAB612ADADC68A3BDEA4 /* Build configuration list for PBXNativeTarget "Pods-VNTableViewDemo" */;
+			buildPhases = (
+				690F57CF68DD507467D6AC5F7B1BD256 /* Headers */,
+				6518A35C2A3BF57C81782BEABE48D0ED /* Sources */,
+				A136324FD2B8F5C45FEF1FF947235767 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FDADC87A5287BFF3162916F3C1AD0A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-VNTableViewDemo";
+			productName = "Pods-VNTableViewDemo";
+			productReference = 6B5F4A5B117F3CA038E2C609ED0B0290 /* libPods-VNTableViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D72D507E98E56DCE798C7140F2A4313D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BD9228252CAEE09F55A3D7D26BC85EE /* Pods-VNTableViewDemo */,
+				20A44484FD609D3AEA1605E0D7146963 /* VNTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4C082F2A57D15349386B10A848B68AB /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/VNTableView/VNTableView.modulemap",
+				"${PODS_ROOT}/Headers/Public/VNTableView/VNTableView-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/VNTableView-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/VNTableView/VNTableView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/VNTableView/VNTableView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6518A35C2A3BF57C81782BEABE48D0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77731C99FD4F847A967909538EEA73B7 /* Pods-VNTableViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A862C2A12F3A9E8F55F138D53C434447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485A41D160228AC0664E861AE2E32C90 /* String+Ex+.swift in Sources */,
+				EDA63C702655B4D1CF2335BDB1420A8A /* VNTableView-dummy.m in Sources */,
+				B2F43411A2BC750F776A5740678F3401 /* VNTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FDADC87A5287BFF3162916F3C1AD0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VNTableView;
+			target = 20A44484FD609D3AEA1605E0D7146963 /* VNTableView */;
+			targetProxy = D1552222D7F6580BC65B6403B7C3F5CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46D43C082950148AFC3B37A7E7E8C5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0189BCD96E8E568A00EA16FB73D8E6 /* Pods-VNTableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-VNTableViewDemo/Pods-VNTableViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		73652203F112AC45BD31EF23BD2B9DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B3A9EB2AE0C970314343F67C07EF40 /* VNTableView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/VNTableView/VNTableView-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = Headers/Public/VNTableView/VNTableView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VNTableView;
+				PRODUCT_NAME = VNTableView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8580203A1927C7A30B730C4A3770309E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C3413E57314DE977CAADC4F0D4D8AA /* Pods-VNTableViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-VNTableViewDemo/Pods-VNTableViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		97735B90B60C29A8D1118A0462F30A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AE7711368514B65052DC7EDDF3F21BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B3A9EB2AE0C970314343F67C07EF40 /* VNTableView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/VNTableView/VNTableView-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = Headers/Public/VNTableView/VNTableView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VNTableView;
+				PRODUCT_NAME = VNTableView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D0A5C185E6F96F034A3680A0F734FD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97735B90B60C29A8D1118A0462F30A17 /* Debug */,
+				D0A5C185E6F96F034A3680A0F734FD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5909498B0F3BAAB612ADADC68A3BDEA4 /* Build configuration list for PBXNativeTarget "Pods-VNTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D43C082950148AFC3B37A7E7E8C5A6 /* Debug */,
+				8580203A1927C7A30B730C4A3770309E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58E2DF52B7212C52581571B013748C7 /* Build configuration list for PBXNativeTarget "VNTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73652203F112AC45BD31EF23BD2B9DE0 /* Debug */,
+				AE7711368514B65052DC7EDDF3F21BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

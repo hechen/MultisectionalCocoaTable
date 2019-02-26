@@ -1,0 +1,6 @@
+module Pods_VNTableViewDemo {
+  umbrella header "Pods-VNTableViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

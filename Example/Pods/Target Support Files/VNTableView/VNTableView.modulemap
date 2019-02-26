@@ -1,0 +1,6 @@
+module VNTableView {
+  umbrella header "VNTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

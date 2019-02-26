@@ -1,0 +1,6 @@
+platform :osx, '10.14'
+inhibit_all_warnings!
+
+target 'VNTableViewDemo' do
+  pod 'VNTableView', path: '../VNTableView/'
+end
