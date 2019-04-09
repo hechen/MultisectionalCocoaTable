@@ -1,6 +1,6 @@
 # VNTableView
 
-[![Build Status](https://travis-ci.com/hechen/VNTableView.svg?branch=master)](https://travis-ci.com/hechen/VNTableView)
+[![Build Status](https://travis-ci.com/hechen/VNTableView.svg?branch=master)](https://travis-ci.com/hechen/VNTableView)  ![Cocoapods](https://img.shields.io/cocoapods/v/VNTableView.svg)  ![Cocoapods platforms](https://img.shields.io/cocoapods/p/VNTableView.svg)    ![Swift Version](https://img.shields.io/badge/Swift-4.0-F16D39.svg?style=flat)
 
 Subclass of NSTableView, which support multiple sections like UITableView.
 
