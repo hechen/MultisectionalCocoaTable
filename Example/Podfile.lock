@@ -2,15 +2,15 @@ PODS:
   - VNTableView (0.0.1)
 
 DEPENDENCIES:
-  - VNTableView (from `../VNTableView/`)
+  - VNTableView (from `../`)
 
 EXTERNAL SOURCES:
   VNTableView:
-    :path: "../VNTableView/"
+    :path: "../"
 
 SPEC CHECKSUMS:
-  VNTableView: 0400c7e48f3c6f817f2545df1356424cca7cc1ec
+  VNTableView: 4e5b7b8803523de22a6b52570a14a0caf3400e0e
 
-PODFILE CHECKSUM: 0cf0de2542aefe3052387b7c8d3999790753f2d6
+PODFILE CHECKSUM: 97d67c7098efd00b69781df96546f9db801c1c31
 
 COCOAPODS: 1.6.0

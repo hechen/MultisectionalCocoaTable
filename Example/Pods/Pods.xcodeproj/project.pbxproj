@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		1776E7AD7FA925F1A26A7EFC11FA22FC /* Pods-VNTableView-VNTableViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B71BA45BD69176C5C8024B05598B8A75 /* Pods-VNTableView-VNTableViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2FF4DA8B12A3ED0FE375BB528130EB5F /* Pods-VNTableViewDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A02B6AAA2E33833F568994599169A /* Pods-VNTableViewDemoTests-dummy.m */; };
-		40E606E91E82054B1E13BBE6CD205092 /* VNTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2727E2F68EC831A6A4FBDF8462FAB398 /* VNTableView-dummy.m */; };
+		40E606E91E82054B1E13BBE6CD205092 /* VNTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3841EA36477FA7BC2F7D47A6DFFF2 /* VNTableView-dummy.m */; };
 		4E252AAE20811ECCF348C2AA2D4063D2 /* Pods-VNTableView-VNTableViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106009200321BB7222B7EA16947C057 /* Pods-VNTableView-VNTableViewDemo-dummy.m */; };
-		5B23652BA2B66E3457BEF0836FB1E41C /* VNTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3698918BDC23B6869AA8744CD87E8E /* VNTableView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7ED17E4434C154B55B6969D23FDF9AB9 /* VNTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6F88AA940A672F4884F71C6EA332D1 /* VNTableView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B23652BA2B66E3457BEF0836FB1E41C /* VNTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65602CDC46236CFD9E49EC0A251F67 /* VNTableView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7ED17E4434C154B55B6969D23FDF9AB9 /* VNTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 565495C767F88B85189669260ACF946C /* VNTableView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CBC7C6AFCA7F51FB7FC542D01EB438A9 /* Pods-VNTableViewDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 990229487AD5595174287EC6FB6ED420 /* Pods-VNTableViewDemoUITests-dummy.m */; };
-		F489B7B4CBB47179E62512908B6A56E5 /* String+Ex+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4148E5462A5722AB90580D62EA71164 /* String+Ex+.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F489B7B4CBB47179E62512908B6A56E5 /* String+Ex+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FDD998CB4CC1B68648D80ECF4EB778 /* String+Ex+.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +29,12 @@
 
 /* Begin PBXFileReference section */
 		03B3A1420E942C3BA248221BCE812EEB /* Pods-VNTableViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNTableViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2727E2F68EC831A6A4FBDF8462FAB398 /* VNTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VNTableView-dummy.m"; sourceTree = "<group>"; };
-		33E5D285531A69316B94ACF5D9329D04 /* VNTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VNTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		10FDD998CB4CC1B68648D80ECF4EB778 /* String+Ex+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Ex+.swift"; sourceTree = "<group>"; };
+		28918992DFBCBF42762AA570A5348869 /* VNTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VNTableView.modulemap; sourceTree = "<group>"; };
+		2E6C9E5D3B30D8E73A0F5EFD34FD86FA /* VNTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VNTableView-prefix.pch"; sourceTree = "<group>"; };
+		35C3841EA36477FA7BC2F7D47A6DFFF2 /* VNTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VNTableView-dummy.m"; sourceTree = "<group>"; };
 		51BBD3BB123C7E70A87073770D8CEE71 /* Pods-VNTableViewDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VNTableViewDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		565495C767F88B85189669260ACF946C /* VNTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VNTableView-umbrella.h"; sourceTree = "<group>"; };
 		5A3A02B6AAA2E33833F568994599169A /* Pods-VNTableViewDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VNTableViewDemoTests-dummy.m"; sourceTree = "<group>"; };
 		5B5B90481CEA1D0DE44152858AF23624 /* libPods-VNTableViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VNTableViewDemoTests.a"; path = "libPods-VNTableViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		650633227C1690916A4C52A28F37E5C1 /* Pods-VNTableViewDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VNTableViewDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -39,24 +42,23 @@
 		6E281485A44A4508FEF8381AB924B7F1 /* Pods-VNTableView-VNTableViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VNTableView-VNTableViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73BC82A442D7D510815BEF09F2F6C1F6 /* Pods-VNTableViewDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VNTableViewDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7873E13201CD10700F4347C389F73F85 /* Pods-VNTableView-VNTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNTableView-VNTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7AABED3385C97D950F7AFCDBC70F9705 /* VNTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VNTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		837B32371FBC422B2B285114E6478BE9 /* libPods-VNTableViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VNTableViewDemoUITests.a"; path = "libPods-VNTableViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C488A29DC1D7D5A59058E3B37A1899 /* Pods-VNTableViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNTableViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9106009200321BB7222B7EA16947C057 /* Pods-VNTableView-VNTableViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VNTableView-VNTableViewDemo-dummy.m"; sourceTree = "<group>"; };
+		94FF98C304C5593144264FCBD4F8EFE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9893B9ADAC16067F848F28B877584DB8 /* Pods-VNTableViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNTableViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		990229487AD5595174287EC6FB6ED420 /* Pods-VNTableViewDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VNTableViewDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FA1AB8F4B5FAD27C12D5D106AEF3F6E /* Pods-VNTableView-VNTableViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VNTableView-VNTableViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		A726911C958E0AB56C66EDE253813273 /* Pods-VNTableViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VNTableViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		AA6F88AA940A672F4884F71C6EA332D1 /* VNTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VNTableView-umbrella.h"; sourceTree = "<group>"; };
+		AF65602CDC46236CFD9E49EC0A251F67 /* VNTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VNTableView.swift; path = Source/VNTableView.swift; sourceTree = "<group>"; };
 		B0A8DC946E88844F4A310AFEB820E60B /* Pods-VNTableView-VNTableViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VNTableView-VNTableViewDemo.modulemap"; sourceTree = "<group>"; };
 		B71BA45BD69176C5C8024B05598B8A75 /* Pods-VNTableView-VNTableViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VNTableView-VNTableViewDemo-umbrella.h"; sourceTree = "<group>"; };
-		BE96446262144676238234187E6BEAFC /* VNTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VNTableView-prefix.pch"; sourceTree = "<group>"; };
-		C1B3A9EB2AE0C970314343F67C07EF40 /* VNTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VNTableView.xcconfig; sourceTree = "<group>"; };
 		CD8C2175240427D5B42AC04C0FFF846B /* libVNTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVNTableView.a; path = libVNTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBEBCB954CDFAF5F50C089667E169165 /* VNTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VNTableView.modulemap; sourceTree = "<group>"; };
-		F4148E5462A5722AB90580D62EA71164 /* String+Ex+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Ex+.swift"; sourceTree = "<group>"; };
+		DA019DBFFFBA91FFD8AE9EAD35895071 /* Readme.md */ = {isa = PBXFileReference; includeInIndex = 1; path = Readme.md; sourceTree = "<group>"; };
+		E1EB8392425F209A972DA19CFE377266 /* VNTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VNTableView.xcconfig; sourceTree = "<group>"; };
 		FB306B64BE7DAFF6B6CBF560B81E8C8B /* Pods-VNTableViewDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VNTableViewDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC3698918BDC23B6869AA8744CD87E8E /* VNTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VNTableView.swift; path = Source/VNTableView.swift; sourceTree = "<group>"; };
 		FC6EE29B0AF544B69C624E8D25067F30 /* libPods-VNTableView-VNTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VNTableView-VNTableViewDemo.a"; path = "libPods-VNTableView-VNTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,19 @@
 			path = "Target Support Files/Pods-VNTableView-VNTableViewDemo";
 			sourceTree = "<group>";
 		};
+		490917A835EB92F575CD79EFBA1635EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28918992DFBCBF42762AA570A5348869 /* VNTableView.modulemap */,
+				E1EB8392425F209A972DA19CFE377266 /* VNTableView.xcconfig */,
+				35C3841EA36477FA7BC2F7D47A6DFFF2 /* VNTableView-dummy.m */,
+				2E6C9E5D3B30D8E73A0F5EFD34FD86FA /* VNTableView-prefix.pch */,
+				565495C767F88B85189669260ACF946C /* VNTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VNTableView";
+			sourceTree = "<group>";
+		};
 		4CA06B01F2198844737DEE2D28C7CF23 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,14 +130,6 @@
 				8226E5F0D974CF6F50A76FE7E5EA13DC /* Pods-VNTableViewDemoUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		530110E16D8F2353A776D1659728F5B8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D4E7175B32677C89A9565493338DC698 /* VNTableView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		8226E5F0D974CF6F50A76FE7E5EA13DC /* Pods-VNTableViewDemoUITests */ = {
@@ -138,57 +145,44 @@
 			path = "Target Support Files/Pods-VNTableViewDemoUITests";
 			sourceTree = "<group>";
 		};
-		B6FD2B13952AD2187C0B4A644AB6486C /* Helpers */ = {
+		8519FE6CE0052BD62A13CC787F426F5C /* VNTableView */ = {
 			isa = PBXGroup;
 			children = (
-				F4148E5462A5722AB90580D62EA71164 /* String+Ex+.swift */,
+				AF65602CDC46236CFD9E49EC0A251F67 /* VNTableView.swift */,
+				A66189549C3A6FC59184E611372EFEFC /* Helpers */,
+				DF78F0D551C7B81BE9D01C018AB368BC /* Pod */,
+				490917A835EB92F575CD79EFBA1635EE /* Support Files */,
+			);
+			name = VNTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8757F1B853995D28E6BE3DBCCF7BB090 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8519FE6CE0052BD62A13CC787F426F5C /* VNTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A66189549C3A6FC59184E611372EFEFC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				10FDD998CB4CC1B68648D80ECF4EB778 /* String+Ex+.swift */,
 			);
 			name = Helpers;
 			path = Source/Helpers;
-			sourceTree = "<group>";
-		};
-		C6E102787FAB98419A5673E566584D08 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DBEBCB954CDFAF5F50C089667E169165 /* VNTableView.modulemap */,
-				C1B3A9EB2AE0C970314343F67C07EF40 /* VNTableView.xcconfig */,
-				2727E2F68EC831A6A4FBDF8462FAB398 /* VNTableView-dummy.m */,
-				BE96446262144676238234187E6BEAFC /* VNTableView-prefix.pch */,
-				AA6F88AA940A672F4884F71C6EA332D1 /* VNTableView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/VNTableView";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				530110E16D8F2353A776D1659728F5B8 /* Development Pods */,
+				8757F1B853995D28E6BE3DBCCF7BB090 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				F51784B6DE8D128B6964E8B8EEFBD7E0 /* Products */,
 				4CA06B01F2198844737DEE2D28C7CF23 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D4E7175B32677C89A9565493338DC698 /* VNTableView */ = {
-			isa = PBXGroup;
-			children = (
-				FC3698918BDC23B6869AA8744CD87E8E /* VNTableView.swift */,
-				B6FD2B13952AD2187C0B4A644AB6486C /* Helpers */,
-				D570CC8E87E022E569904BB2542055F8 /* Pod */,
-				C6E102787FAB98419A5673E566584D08 /* Support Files */,
-			);
-			name = VNTableView;
-			path = ../../VNTableView;
-			sourceTree = "<group>";
-		};
-		D570CC8E87E022E569904BB2542055F8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				33E5D285531A69316B94ACF5D9329D04 /* VNTableView.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -196,6 +190,16 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF78F0D551C7B81BE9D01C018AB368BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94FF98C304C5593144264FCBD4F8EFE4 /* LICENSE */,
+				DA019DBFFFBA91FFD8AE9EAD35895071 /* Readme.md */,
+				7AABED3385C97D950F7AFCDBC70F9705 /* VNTableView.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E5078D935C19D897567EAA858461C7AE /* Pods-VNTableViewDemoTests */ = {
@@ -544,7 +548,7 @@
 		};
 		BB25EF2D33FA07CF93E8A94EFD451D14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1B3A9EB2AE0C970314343F67C07EF40 /* VNTableView.xcconfig */;
+			baseConfigurationReference = E1EB8392425F209A972DA19CFE377266 /* VNTableView.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -594,7 +598,7 @@
 		};
 		C86FB4125D85383F9B3E9A55BFEE19E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1B3A9EB2AE0C970314343F67C07EF40 /* VNTableView.xcconfig */;
+			baseConfigurationReference = E1EB8392425F209A972DA19CFE377266 /* VNTableView.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

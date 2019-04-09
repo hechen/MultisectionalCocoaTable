@@ -1,9 +1,6 @@
 {
   "name": "VNTableView",
   "version": "0.0.1",
-  "license": {
-    "type": "BSD"
-  },
   "homepage": "https://github.com/hechen/VNTableView",
   "authors": {
     "Chen": "hechen.dream@gmail.com"
@@ -17,7 +14,10 @@
   "platforms": {
     "osx": "10.10"
   },
-  "osx": {
-    "source_files": "Source/**/*.swift"
+  "source_files": "Source/**/**",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE",
+    "text": "Permission is hereby granted ..."
   }
 }

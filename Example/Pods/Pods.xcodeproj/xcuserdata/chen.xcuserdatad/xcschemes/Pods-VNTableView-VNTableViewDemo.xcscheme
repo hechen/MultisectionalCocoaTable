@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B0B1EDE51691C203482FC813F1E8D03"
+               BuildableName = "libPods-VNTableView-VNTableViewDemo.a"
                BlueprintName = "Pods-VNTableView-VNTableViewDemo"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-VNTableView-VNTableViewDemo.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
